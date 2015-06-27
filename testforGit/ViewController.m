@@ -1,12 +1,13 @@
 //
 //  ViewController.m
-//  testforGit
+//  TestMaker
 //
-//  Created by Syotaro Shimizu on 2015/06/27.
+//  Created by Syotaro Shimizu on 2015/05/31.
 //  Copyright (c) 2015年 Syotaro Shimizu. All rights reserved.
 //
 
 #import "ViewController.h"
+
 
 @interface ViewController ()
 
@@ -18,7 +19,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
