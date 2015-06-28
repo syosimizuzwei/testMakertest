@@ -38,6 +38,7 @@
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     
     [userDefaults setObject:_question.text forKey:@"questiontext"];
+    NSLog(_question.text);
     [userDefaults setObject:_answer.text forKey:@"answertext"];
     [userDefaults synchronize];//即時保存
     [self dismissViewControllerAnimated:YES completion:NULL];

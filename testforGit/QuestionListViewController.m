@@ -34,6 +34,8 @@ NSString *qt;/*問題文*/
 -(void)viewDidAppear:(BOOL)animated{
     NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
     qt = [userDefaults stringForKey:@"questiontext"];
+    label1.text=qt;//[NSString stringWithFormat:(id)qt];
+
        }
 #pragma mark - Table view data source
 
@@ -55,8 +57,7 @@ NSString *qt;/*問題文*/
                              dequeueReusableCellWithIdentifier:@"list"];
     UILabel *label1 = (UILabel*)[cell viewWithTag:1];
     
-    label1.text=[NSString stringWithFormat:(id)qt];
-    return cell;
+        return cell;
 }
 
 
